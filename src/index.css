@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  /* ===== Brand (Grayscale) ===== */
+  --color-primary: rgb(17 24 39);        /* gray-900 */
+  --color-primary-light: rgb(55 65 81);  /* gray-700 */
+  --color-primary-dark: rgb(0 0 0);      /* black */
+
+  /* ===== Accent (CTA) ===== */
+  --color-accent: rgb(128 0 0);          /* #800000 */
+  --color-accent-light: rgb(153 27 27);  /* maroon-light */
+  --color-accent-dark: rgb(88 0 0);      /* maroon-dark */
+
+  /* ===== Backgrounds ===== */
+  --color-bg: #f8f5f1;          
+  --color-bg-secondary: rgb(249 250 251);
+  --color-bg-muted: rgb(229 231 235);
+
+  /* ===== Text ===== */
+  --color-text: rgb(17 24 39);
+  --color-text-secondary: rgb(75 85 99);
+  --color-text-muted: rgb(156 163 175);
+  --color-text-inverse: rgb(255 255 255);
+
+  /* ===== Borders ===== */
+  --color-border: rgb(209 213 219);
+  --color-border-strong: rgb(156 163 175);
+
+  /* ===== Status (Neutralized) ===== */
+  --color-success: rgb(55 65 81);
+  --color-warning: rgb(107 114 128);
+  --color-error: rgb(75 85 99);
+  --color-info: rgb(55 65 81);
+
+  /* ===== Alpha Variants (rgba) ===== */
+  --color-accent-50: rgba(128 0 0 / 0.5);
+  --color-text-70: rgba(17 24 39 / 0.7);
+  --color-border-50: rgba(209 213 219 / 0.5);
+}
