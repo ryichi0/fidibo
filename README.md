@@ -1,16 +1,23 @@
-# React + Vite
+# Fidibo Web-App Clone (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک بازسازی مدرن و واکنش‌گرا (Responsive) از پلتفرم فیدیبو با تمرکز بر مدیریت وضعیت (State Management) و طراحی دقیق رابط کاربری.
 
-Currently, two official plugins are available:
+## 🚀 ویژگی‌های کلیدی (Features)
+- **Component-Based Architecture:** پیاده‌سازی کامپوننت‌های بازمصرف‌پذیر (Reusable Components) مانند کارت‌های کتاب، اسلایدرها و منوها.
+- **Responsive Design:** بهینه‌سازی کامل برای نمایش در موبایل، تبلت و دسکتاپ.
+- **Dynamic Routing:** استفاده از React Router برای جابه‌جایی بین صفحات کتاب‌ها و دسته‌بندی‌ها.
+- **Search & Filter:** قابلیت جستجو و فیلتر کردن کتاب‌ها بر اساس دسته‌بندی.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 تکنولوژی‌های استفاده شده (Tech Stack)
+- **Frontend:** React.js (Hooks, Functional Components)
+- **Styling:** CSS Modules / Styled Components (بسته به متدولوژی استفاده شده در کد)
+- **Routing:** React Router DOM
+- **State Management:** Context API / UseState
 
-## React Compiler
+## 💡 چالش‌های فنی و یادگیری‌ها (Challenges & Learnings)
+- **مدیریت دیتا:** چالش اصلی من در این پروژه، مدیریت داده‌های حجیم کتاب‌ها و نمایش بهینه آن‌ها در اسلایدرها بود.
+- **تجربه کاربری (UX):** با پیاده‌سازی Lazy Loading برای تصاویر، سرعت لود اولیه اپلیکیشن را بهبود بخشیدم.
+- **پایه کدهای تمیز:** یاد گرفتم چطور با جدا کردن منطق (Logic) از ظاهر (UI)، کدی بنویسم که نگهداری آن در آینده آسان‌تر باشد.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*این پروژه به عنوان بخشی از مسیر یادگیری عمیق React توسعه یافته است.*
