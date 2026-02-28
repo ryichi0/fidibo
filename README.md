@@ -6,11 +6,10 @@
 - **Component-Based Architecture:** پیاده‌سازی کامپوننت‌های بازمصرف‌پذیر (Reusable Components) مانند کارت‌های کتاب، اسلایدرها و منوها.
 - **Responsive Design:** بهینه‌سازی کامل برای نمایش در موبایل، تبلت و دسکتاپ.
 - **Dynamic Routing:** استفاده از React Router برای جابه‌جایی بین صفحات کتاب‌ها و دسته‌بندی‌ها.
-- **Search & Filter:** قابلیت جستجو و فیلتر کردن کتاب‌ها بر اساس دسته‌بندی.
 
 ## 🛠 تکنولوژی‌های استفاده شده (Tech Stack)
 - **Frontend:** React.js (Hooks, Functional Components)
-- **Styling:** CSS Modules / Styled Components (بسته به متدولوژی استفاده شده در کد)
+- **Styling:** CSS / TailwindCSS
 - **Routing:** React Router DOM
 - **State Management:** Context API / UseState
 
